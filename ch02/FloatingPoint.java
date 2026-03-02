@@ -4,10 +4,6 @@ public class FloatingPoint {
         double pi;
         pi = 3.14159;
 
-        double minute3 = 59.0;
-        System.out.print("Fraction of the hour that has passed: ");
-        System.out.println(minute3 / 60.0);
-
         double y = 1.0 / 3.0;  // correct
 
         System.out.println(0.1 * 10);

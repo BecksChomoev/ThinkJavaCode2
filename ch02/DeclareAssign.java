@@ -12,7 +12,7 @@ public class DeclareAssign {
         hour = 11;           // assign the value 11 to hour
         minute = 59;         // set minute to 59
 
-        message = "123";     // legal
+        message = "123";        // legal
         // message = 123;    // not legal
 
         String message2 = "Hello!";
