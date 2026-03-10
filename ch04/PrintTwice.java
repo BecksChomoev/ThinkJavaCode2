@@ -1,3 +1,4 @@
+
 public class PrintTwice {
 
     public static void printTwice(String s) {
