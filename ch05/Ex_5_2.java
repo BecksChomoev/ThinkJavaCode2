@@ -11,8 +11,9 @@ public class Ex_5_2 {
         System.out.println("I'm thinking of a number between 1 and 100");
         System.out.println("(including both). Can you guess what it is?");
 
+        Scanner scanner = new Scanner(System.in);
+
         while(userAttempts != 0 ) {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Type a number ");
             userGuess = scanner.nextInt();
 
@@ -24,6 +25,7 @@ public class Ex_5_2 {
                 userAttempts--;
             } else {
                 System.out.println("Congratulations! You guessed right!");
+                break;
             }
 
             if (userAttempts == 0) {
