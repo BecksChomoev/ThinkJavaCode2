@@ -11,12 +11,14 @@ public class MakeDubMus {
         return a;
     }
 
+    // Multiplies each number to 2;
     public static void dub(int[] jub) {
         for (int i = 0; i < jub.length; i++) {
-            jub[i] *= 2;
+            jub[i] *= 2; //
         }
     }
 
+    // Addition of the array zoo;
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
@@ -26,9 +28,9 @@ public class MakeDubMus {
     }
 
     public static void main(String[] args) {
-        int[] bob = make(5);
-        dub(bob);
-        System.out.println(mus(bob));
+        int[] bob = make(5); // [1, 2, 3, 4, 5]
+        dub(bob); // [2, 4, 8, 16, 32]
+        System.out.println(mus(bob)); //
     }
 
 }
